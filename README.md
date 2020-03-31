@@ -1,4 +1,4 @@
-# pygame-tic-tac-toe
+# Tic-Tac-Toe Game With Pygame 
 This is a TIC-TAC-TOE game that I have made using pygame
 
 ## Modules Used
