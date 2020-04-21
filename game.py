@@ -79,7 +79,7 @@ def main():
         box_x, box_y = getRectAtMousePos(mouse_x, mouse_y)
 
         if box_x != None and box_y != None:
-            if usedBox[box_x][box_y] == False and mouseClicked == False and player1TurnDone == False:
+            if usedBox[box_x][box_y] == False and player1TurnDone == False and mouseClicked == True:
                 markX(box_x, box_y, markFont)
                 usedBox[box_x][box_y] = True
                 board[box_x][box_y] = "X"
@@ -102,8 +102,9 @@ def main():
                 board, usedBox, player1TurnDone, player1Wins, player2Wins)
             msg = "Player 1 is the WINNNER! \nPress ENTER to continue"
             box(msg)
-            SCREEN.fill(BLACK)
             pygame.mouse.set_pos(x-10, y-10)
+            SCREEN.fill(BLACK)
+            pygame.display.update()
             drawBoard()
 
         elif player2Wins:
