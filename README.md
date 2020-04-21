@@ -8,4 +8,4 @@ This is a TIC-TAC-TOE game that I have made using pygame
 
 ***
 ## Demo
-![Demo of the game](https://github.com/theshubhagrwl/pygame-tic-tac-toe/blob/master/demo/demo.gif)
+![Demo of the game](https://github.com/theshubhagrwl/pygame-tic-tac-toe/blob/master/demo/tic-tac-toe.gif)
